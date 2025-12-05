@@ -2,9 +2,9 @@ from models import Base, engine, Session, User, Food, Meal, UserMealFood
 from datetime import datetime
 
 
-print("Creating database tables...")
-Base.metadata.create_all(engine)
-print("Database ready!")
+# print("Creating database tables...")
+# Base.metadata.create_all(engine)
+# print("Database ready!")
 
 
 def get_int(prompt):
